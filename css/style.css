@@ -71,7 +71,6 @@ nav li:last-child a
     border: 2px solid var(--blu);
     color: var(--blu);
     border-radius: 8px;
-    margin-left: 50px;
 }
 .banner
 {
@@ -242,4 +241,78 @@ nav li:last-child a
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+.g-3
+{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 20px;
+}
+.box
+{
+    border: 1px solid #ECEFF4;
+    border-radius: 8px;
+    width: 369px;
+    margin-bottom: 30px;
+}
+.date
+{
+
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    color: #777795;
+    padding: 20px;
+}
+.box h2
+{
+
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    color: var(--bla);
+    padding-left: 20px;
+}
+.box p
+{
+
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 20px;
+}
+.price
+{
+    padding: 20px;
+}
+.pricee
+{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blu)
+}
+.signup
+{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--blu);
+    background: var(--whi);
+    border: 1px solid var(--blu);
+    border-radius: 8px;    
+    padding: 5px 10px;
 }
