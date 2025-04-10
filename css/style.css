@@ -363,3 +363,66 @@ button
     background-color: var(--blu);
     color: var(--whi);
 }
+.login-box 
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    place-self: center;
+}
+.center
+{
+    place-self: center;
+}
+.center h2,p
+{
+    padding-bottom: 10px;
+}
+.center label
+{
+    display: block;
+    margin: 5px 0 5px;
+    font-weight: bold;
+}
+.center input[type="email"],input[type="password"]
+{
+    width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
+.options
+{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+}
+.options label 
+{
+    font-weight: normal;
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+}
+.options a 
+{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+}
+.options a:hover 
+{
+    text-decoration: underline;
+}
+.register 
+{
+    text-align: center;
+    font-size: 14px;
+}
+.register a:hover 
+{
+    text-decoration: underline;
+}
