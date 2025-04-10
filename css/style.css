@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --bla:#000000;
+    --blu:#0000FF;
+    --whi:#fff;
+}
+body
+{
+    font-family: 'Maven Pro', sans-serif;
+}
+.con
+{
+    max-width: 1240px;
+    margin: auto;
+}
+.grid
+{
+    display: grid;
+    justify-content: space-between;
+}
+.g-2
+{
+    grid-template-columns: auto auto;
+}
+.logo
+{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    color: #313273;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+nav ul li
+{
+    display: inline;
+}
+nav ul li a
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--bla);
+    padding: 15px;
+}
+header
+{
+    padding: 30px 0;
+}
+.active a
+{
+    font-weight: bold;
+}
+nav li:last-child a
+{
+    border: 2px solid var(--blu);
+    color: var(--blu);
+    border-radius: 8px;
+    margin-left: 50px;
+}
+.b-left h1
+{
+    font-weight: 800;
+    font-size: 68px;
+    color: var(--bla);
+}
+.b-left p
+{
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.sign
+{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.sign a
+{
+    border: 2px solid var(--p);
+    padding: 22px 40px;
+    gap: 10px;
+    width: 183px;
+    height: 63px;
+    background: var(--blu);
+    border-radius: 6px;
+    margin-right: 70px;
+    font-weight: bold;
+    color: var(--whi);
+    text-align: center;
+}
+.img1
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+}
+.img1 img
+{
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 0 4px 8px black;
+}
+.banner-1
+{
+    margin-top: 60px;
+}
+.cont
+{
+    padding-left: 70px;
+}
+.cont h1
+{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    color: var(--bla);
+}
+.cont p
+{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.5px;
+    color: var(--bla);
+    opacity: 0.8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cont a
+{
+    border: 2px solid var(--p);
+    padding: 22px 40px;
+    gap: 10px;
+    width: 183px;
+    height: 63px;
+    background: var(--blu);
+    border-radius: 6px;
+    margin-right: 70px;
+    font-weight: bold;
+    color: var(--whi);
+    text-align: center;
+}
+.img2
+{
+    padding-right: 25px;
+    margin-top: 20px;
+}
+.img2 img
+{
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 0 4px 8px black;
+}
